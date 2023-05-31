@@ -1,0 +1,165 @@
+
+@media(max-width:320px) {}
+
+@media(min-width:321px) and (max-width:360px) {
+    .login-bg .login-box {
+        left: 46% !important;
+    }
+    .login-bg .login-box .left-box .login-title::before {
+        left: -26px !important;
+    }
+	
+}
+
+@media (min-width:361px) and (max-width:375px) {
+    .login-bg .login-box {
+        left: 46% !important;
+    }
+    .login-bg .login-box .left-box .login-title::before {
+        left: -26px !important;
+    }
+}
+
+@media(min-width:376px) and (max-width:414px) {
+    .login-bg .login-box {
+        margin-left: 6px;
+    }
+}
+
+@media(max-width:375px) {}
+
+@media(max-width:414px) {
+    .small-none {
+        display: none;
+    }
+    .login-bg .login-box .left-box .lock-box {
+        display: none;
+    }
+    .logo-box img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .login-bg .login-box {
+        width: 100%;
+    }
+    .login-bg .login-box {
+        width: 100%;
+        top: 27%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+    .login-bg .login-box .left-box .login-title::before {
+        top: 45%;
+        transform: translateY(-50%);
+        width: 29px;
+        height: 11px;
+        left: -24px;
+    }
+    .login-bg .login-box .left-box .login-title h2 {
+        font-size: 18px;
+    }
+    .login-bg {
+        height: 62vh;
+    }
+    .pad-right {
+        padding-right: 0;
+    }
+}
+
+@media(min-width:415px) and (max-width:575px) {
+    .login-bg .login-box {
+        top: 27%;
+    }
+    .login-bg {
+        height: 67vh;
+    }
+    .login-bg .login-box .left-box .login-title h2 {
+        font-size: 22px;
+    }
+    .login-bg .login-box .left-box label,
+    .login-bg .login-box .left-box .forget-pwd-box a {
+        font-size: 15px;
+    }
+    .login-bg .login-box .left-box {
+        border-radius: 0;
+    }
+    .login-bg .login-box {
+        width: 95% !important;
+    }
+}
+
+@media(max-width:575px) {
+    .login-bg .login-box .left-box .lock-box {
+        display: none;
+    }
+    .small-none {
+        display: none;
+    }
+}
+
+@media(min-width:576px) {
+    .left-box .logo-box {
+        display: none;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .login-bg .login-box {
+        width: 96%;
+    }
+    .login-bg .login-box .left-box .login-title h2 {
+        font-size: 19px;
+    }
+    .login-bg .login-box {
+        top: 35%;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .login-bg .login-box {
+        width: 96%;
+    }
+    .login-bg .login-box .left-box .login-title h2 {
+        font-size: 19px;
+    }
+    .login-bg .login-box {
+        top: 35%;
+    }
+}
+
+@media(min-width:992px) {
+    .login-bg .login-box .left-box .login-title h2 {
+        font-size: 21px;
+    }
+}
+
+
+
+/*==========================POPO CSS START===========================*/
+
+@media(min-width:5px) and (max-width:769px) {
+	ul.po-nav{background:#fff!important; margin-bottom:15px;}
+	ul.po-nav li.nav-item{ border-bottom:solid 1px #ececec!important; }
+	.res-m-i:focus{outline:none;}
+	.pobar-i{font-size:28px;}
+	ul.po-nav li a{border-left:none!important; border-right:none!important;}
+	.res-ab{margin-top:20px!important;}
+	.res-time{display:none!important;}
+	.res-tab{padding:0px!important;}
+	.res-pagination nav{margin:0 auto!important;}
+	.respons-footer .container .row div{text-align:center!important;}
+	.res-chart{margin-top:15px!important;}
+	ul.res-tab-menu{display:block!important;}
+}
+@media(min-width:5px) and (max-width:575px) {
+	.devi-0-575{width:25%!important;}
+	.devi-575{width:75%!important;}
+	
+}
+@media(min-width:5px) and (max-width:991px) {
+	.respo-head{height:56px!important;}
+	.pomenu{flex-direction: row!important;}
+}
+
+/*==========================POPO CSS END! ===========================*/
+
